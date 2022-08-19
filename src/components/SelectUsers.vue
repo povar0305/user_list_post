@@ -1,26 +1,20 @@
 <template>
-  <v-container>
-    <h1>
-      Тестовое задание для компании СВЦ ПОЛИС
-    </h1>
-    <v-row>
-      <v-col>
-        Список пользователей
-        <Users_list>
-        </Users_list>
-      </v-col>
-    </v-row>
-  </v-container>
-
+<v-main><v-row>
+  <v-col>
+    Список пользователей
+    <users_list>
+    </users_list>
+  </v-col>
+</v-row></v-main>
 </template>
 
 <script>
-import Users_list from "@/components/users_list.vue";
-
+import users_list from "@/components/users_list";
 export default {
-  components: {Users_list},
-
-  name: "SelectUsers"
+name: "SelectUsers",
+  components:{
+  users_list
+  }
 }
 </script>
 
