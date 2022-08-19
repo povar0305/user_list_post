@@ -1,8 +1,10 @@
 <template>
 <v-main>
-<div >
+<!--
+<div v-for="(posts,index) in posts">
 
-</div>
+{{posts}}
+</div>-->
 </v-main>
 </template>
 
@@ -13,9 +15,7 @@ export default {
   name: "User_mainPosts",
   data: () => ({
     posts: [],
-/*
-    this_posts:posts.filter(el => el.userId == $route.params.users.id)
-*/
+
   }),
 
   mounted() {
