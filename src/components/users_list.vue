@@ -1,7 +1,7 @@
 <template class="d-flex ">
   <v-content >
     <div v-for="(users, id) in this.Api " :key="id" class="users_list__item">
-      <router-link :to="{name:'user_main',params:{users:users}}">
+      <router-link :to="'/user/'+id">
         <v-main class="d-flex mt-3 align-center users_list__item-row"  >
           <v-avatar
               rounded
@@ -14,7 +14,6 @@
           </v-avatar>
           <span class="ml-3">{{ users.name }}</span>
         </v-main>
-
       </router-link>
     </div>
   </v-content>
