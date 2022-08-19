@@ -1,35 +1,20 @@
 <template>
   <v-app>
-    <v-container>
-      <h1>
-        Тестовое задание для компании СВЦ ПОЛИС
-      </h1>
-      <v-row>
-        <v-col>
-          Список пользователей
-          <Users_list>
-
-          </Users_list>
-        </v-col>
-      </v-row>
-    </v-container>
-
+    <router-view></router-view>
   </v-app>
 </template>
 
 <script>
 
-import Users_list from "@/components/users_list.vue";
 export default {
   name: 'App',
-  components: {Users_list},
-  data: () => ({
-     }),
+
+  data: () => ({}),
 
 };
 </script>
 <style lang="scss">
-a{
+a {
   text-decoration: none;
 }
 
