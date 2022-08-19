@@ -59,7 +59,11 @@
       </v-row>
 
     </v-row>
-
+<v-row>
+  <h5 class="title mt-2 pb-2 text-center w-100">
+    Посты
+  </h5>
+</v-row>
     <User_mainPosts></User_mainPosts>
 
   </v-main>
