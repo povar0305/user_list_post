@@ -65,6 +65,11 @@
   </h5>
 </v-row>
     <User_mainPosts></User_mainPosts>
+<v-row>
+  <h5 class="title mt-2 pb-2 text-center w-100">
+    Альбомы
+  </h5>
+</v-row>
 
   </v-main>
 </template>

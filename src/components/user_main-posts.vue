@@ -5,7 +5,6 @@
 <div class="post_inner" v-if="post.userId==(Number($route.params.userId)+1)">
   <h3>  {{post.title }}</h3>
   <p>
-
     {{post.body }}
   </p>
 
@@ -37,6 +36,9 @@ $second_color:#F2B705;
 .post{
   display: flex;width: calc(50% - 1rem);
   justify-content: center;
+  @media(max-width: 768px){
+    width: 100%;
+  }
   &_inner{
 
     margin-bottom: 1rem;
