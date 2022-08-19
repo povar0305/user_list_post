@@ -1,9 +1,7 @@
 <template>
-  <v-content>
     <v-main>
       {{users}}
     </v-main>
-  </v-content>
 
 
 <!--  <a href="#">

@@ -1,8 +1,9 @@
 <template>
-<v-content>
-post
+<v-main>
+<div >
 
-</v-content>
+</div>
+</v-main>
 </template>
 
 <script>
