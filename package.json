@@ -1,5 +1,6 @@
 {
   "name": "user_list_post",
+  "title": "texts",
   "version": "0.1.0",
   "private": true,
   "scripts": {

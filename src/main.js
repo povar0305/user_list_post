@@ -9,7 +9,8 @@ import store from "@/vuex/array";
 
 Vue.config.productionTip = false
 const router = new VueRouter({
-    routes: Routers
+    routes: Routers,
+    mode:"history"
 })
 new Vue({
     vuetify, VueRouter, router:router,
