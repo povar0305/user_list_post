@@ -1,12 +1,17 @@
 <template>
 <v-main>
-  sdfghjkm,l.
+  {{$route.params.users.email}}
+  {{$route.params.users.name}}
+
 </v-main>
 </template>
 
 <script>
 export default {
-  name: "User-main"
+  name: "User-main",
+  data(){
+    //
+  }
 }
 </script>
 

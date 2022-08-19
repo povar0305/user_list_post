@@ -1,18 +1,21 @@
 <template>
   <v-content class="d-flex ">
     <div v-for="(users, id) in this.Api " :key="id" class="w-100">
+      <router-link :to="{name:'user_main',params:{users:users}}">
         <v-main class="d-flex mt-3 align-center"  >
-        <v-avatar
-            rounded
-            size="52"
+          <v-avatar
+              rounded
+              size="52"
 
-        >
+          >
         <span class="white--text">
                   {{ users.name.substr(0, 2) }}
         </span>
-        </v-avatar>
-        <span class="ml-3">{{ users.name }}</span>
-      </v-main>
+          </v-avatar>
+          <span class="ml-3">{{ users.name }}</span>
+        </v-main>
+
+      </router-link>
     </div>
   </v-content>
 </template>
