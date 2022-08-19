@@ -1,9 +1,10 @@
 <template>
   <v-main>
     <v-row>
-      <v-col>
-        Список пользователей
-        <users_list>
+      <v-col class="text-center my-3">
+        <h3 class="my-2">        Список пользователей
+        </h3>
+        <users_list class="users_list">
         </users_list>
       </v-col>
     </v-row>

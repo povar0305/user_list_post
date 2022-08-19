@@ -8,6 +8,6 @@ import user_main from "@/components/user_main";
 
 export default [
     {path:'/',name:'main',component:selectUsers},
-    {path:'/user',name:'user_main',component:user_main,props:true},
+    {path:'/user/',name:'user_main',component:user_main,props:true},
 
 ]

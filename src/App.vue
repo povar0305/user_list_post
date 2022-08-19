@@ -21,7 +21,13 @@ export default {
 $main_color:white;
 $second_color:#F2B705;
 body{
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+  display: flex;
+}
+.v-application--wrap{
+  min-height: 100%  ;
 }
 *{
   font-family: 'Montserrat', sans-serif;
@@ -32,9 +38,36 @@ body{
 }
 h1{
   text-align: center;
+  padding-bottom: 3rem;
 }
 a {
   text-decoration: none;
 }
+.users_list{
+  & > div{
+    display: flex!important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__item{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    @media(max-width: 768px){
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      span.ml-3{
+        margin-left: 6px!important;
+      }
+      &-row>div{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+      }
+    }
+  }
 
+
+}
 </style>

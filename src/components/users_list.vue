@@ -1,8 +1,8 @@
-<template>
-  <v-content class="d-flex ">
-    <div v-for="(users, id) in this.Api " :key="id" class="w-100">
+<template class="d-flex ">
+  <v-content >
+    <div v-for="(users, id) in this.Api " :key="id" class="users_list__item">
       <router-link :to="{name:'user_main',params:{users:users}}">
-        <v-main class="d-flex mt-3 align-center"  >
+        <v-main class="d-flex mt-3 align-center users_list__item-row"  >
           <v-avatar
               rounded
               size="52"
