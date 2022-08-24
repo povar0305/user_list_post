@@ -1,24 +1,15 @@
 # user_list_post
 
-## Project setup
-```
-npm install
-```
+Исходное задание, используя апи https://jsonplaceholder.typicode.com:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Приложение должно состоять из 2 экранов:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+1) Список пользователей
+2) Страница конкретного пользователя, которая содержит список альбомов и список постов пользователя
+3) Добавить возможность делать ссылки на страницу конкретного пользователя с параметром, какую страницу открыть
 
-### Lints and fixes files
-```
-npm run lint
-```
+# Скриншоты
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Главная страница ![image](https://user-images.githubusercontent.com/73982948/186486490-248530d6-25d0-40e5-9b65-2cc5dce2381e.png)
+
+Страница конкретного пользоватяле ![image](https://user-images.githubusercontent.com/73982948/186486664-c2539137-2a14-4817-bb75-90efc662c29c.png)
