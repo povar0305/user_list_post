@@ -12,4 +12,4 @@
 
 Главная страница ![image](https://user-images.githubusercontent.com/73982948/186486490-248530d6-25d0-40e5-9b65-2cc5dce2381e.png)
 
-Страница конкретного пользоватяле ![image](https://user-images.githubusercontent.com/73982948/186486664-c2539137-2a14-4817-bb75-90efc662c29c.png)
+Страница конкретного пользователя ![image](https://user-images.githubusercontent.com/73982948/186486664-c2539137-2a14-4817-bb75-90efc662c29c.png)
